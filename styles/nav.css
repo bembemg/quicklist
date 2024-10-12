@@ -1,0 +1,16 @@
+#back {
+    display: flex;
+    align-items: center;
+
+    & img {
+        width: 57px;
+        height: 16px;
+        margin-inline: -15px;
+    }
+
+    & a {
+        text-decoration: none;
+        color: var(--brand-color);
+        font: var(--text-link);
+    }
+}

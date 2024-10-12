@@ -8,6 +8,45 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header id="logo">
+            <img src="./assets/logo.svg" alt="Quicklist">
+    </header>
+
+    <nav id="back" class="container">
+            <img src="./assets/icons/arrow-back.svg" alt="">
+            <a href="#">Voltar</a>
+    </nav>
+
+    <main class="container">
+        <section id="title">
+            <h1>Compras da semana</h1>
+        </section>
+
+        <section id="add-item">
+            <input type="text" placeholder="Adicione um novo item">
+            <button type="submit">Adicionar item</button>
+        </section>
+    </main>
+
+    <main id="list" class="container">
+        <div class="item-list">
+            <ul>
+                <li>
+                    <label for="item1">
+                        <input type="checkbox" id="item1" name="item1" value="Item 1">
+                        Item 1
+                        <span class="trash-icon"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="item1">
+                        <input type="checkbox" id="item1" name="item1" value="Item 1">
+                        Item 1
+                        <span class="trash-icon"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
