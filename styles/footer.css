@@ -1,13 +1,15 @@
 #removed {
     visibility: hidden;
+    opacity: 0;
     display: flex;
     width: 100%;
     height: 2.75rem;
     background-color: var(--color-danger);
     border-radius: 12px;
     align-items: center;
-    margin-top: 2.25rem;
-
+    margin-top: 0.5rem;
+    transition: visibility 0s, opacity 0.5s linear;
+    
     & span {
         font: var(--text-label);
         color: var(--always-white);
@@ -22,8 +24,14 @@
         padding-inline: .75rem;
         cursor: pointer;
     }
+
 }
 
 .alert {
     padding-inline: .75rem .5rem;
+}
+
+#removed.visible {
+    visibility: visible;
+    opacity: 1;
 }

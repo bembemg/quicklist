@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 4px;
+} 
+::-webkit-scrollbar-thumb {
+    background-color: var(--brand-color);
+}
+
 :root {
     
     --bg-primary: #F4F5FB;

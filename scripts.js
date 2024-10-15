@@ -42,12 +42,15 @@ btnItem.addEventListener("click", function (event) {
 
             if (newItem.remove) {
                 removed.style.visibility = "visible"
+                removed.classList.add("visible")
 
                 const removedBtn = document.getElementById("removed-btn")
                 removedBtn.addEventListener("click", () => {
-                    removed.style.visibility = "hidden"
+                    removed.classList.remove("visible")
                 })
             }
         })
+
+        itemName.value = "";
     }
 })
