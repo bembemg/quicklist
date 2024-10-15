@@ -15,12 +15,23 @@
         border-radius: 12px;
         background-color: var(--bg-secondary);
         border: solid var(--border-primary);
+        font: var(--text-paragraph);
+        color: var(--content-primary);
+        padding-inline: .5rem;
+    }
 
+    & input:hover {
+      border-color: var(--border-hover);
+    }
+
+    & input:focus {
+      border-color: var(--brand-color);
+      outline: none;
+      caret-color: var(--content-secondary);
     }
 
     & input::placeholder {
         color: var(--content-tertiary);
-        padding-left: 1.125rem;
         font: var(--text-paragraph);
     }
     
@@ -30,6 +41,11 @@
         background-color: var(--brand-color);
         color: var(--always-white);
         font: var(--text-label);
+        cursor: pointer;
+    }
+
+    & button:hover {
+      background-color: var(--brand-color-hover);
     }
 }
 
@@ -38,7 +54,7 @@
   background-color: var(--bg-secondary);
   width: 100%;
 
-  border-radius: 0.75rem;
+  border-radius: 12px;
   margin-bottom: 0.75rem;
   height: 3.125rem;
   
@@ -74,4 +90,5 @@
 .del-btn {
   margin-left: auto;
   padding-inline: .75rem;
+  cursor: pointer;
 }

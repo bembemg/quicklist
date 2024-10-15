@@ -1,0 +1,28 @@
+#removed {
+    /* visibility: hidden; */
+    display: flex;
+    width: 100%;
+    height: 2.75rem;
+    background-color: var(--color-danger);
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 2.25rem;
+
+    & span {
+        font: var(--text-label);
+        color: var(--always-white);
+    }
+
+    & button {
+        display: flex;
+        appearance: none;
+        border: none;
+        background: none;
+        margin-left: auto;
+        padding-inline: .75rem;
+    }
+}
+
+.alert {
+    padding-inline: .75rem .5rem;
+}

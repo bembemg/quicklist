@@ -13,4 +13,8 @@
         color: var(--brand-color);
         font: var(--text-link);
     }
+
+    & a:hover {
+        color: var(--brand-color-hover);
+    }
 }
