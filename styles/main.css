@@ -65,6 +65,7 @@
   & span {
     font: var(--text-paragraph);
     color: var(--content-secondary);
+    padding-inline: 0.25rem;
   }
 }
 
