@@ -18,3 +18,11 @@
         color: var(--brand-color-hover);
     }
 }
+
+@media (width <= 80rem) {
+    #back {
+        display: block;
+        margin-top: 2.125rem;
+        margin-bottom: 1rem;
+    }
+}

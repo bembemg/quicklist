@@ -3,3 +3,9 @@
     justify-content: center;
     margin-block: 1.5rem 3.875rem;
 }
+
+@media (width <= 80rem) {
+    #logo {
+        display: none;
+    }
+}
